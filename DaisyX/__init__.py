@@ -83,10 +83,10 @@ START_OTHER_USERS_TEXT = get_config(
     "START_OTHER_USERS_TEXT",
     (
         "Hi. ☺️\n"
-        "Thank you for using me 😬\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHIDe/SessionMakerBot\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        "ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ᴅᴀɪsʏ x sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ 😬\n\n"
+        "ᴛʜɪs ɪs ᴀɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ ʙʏ ᴛᴇᴀᴍ ᴅᴀɪsʏ x\n"
+        "ᴍᴀᴅᴇ ᴠɪᴀ ᴜsɪɴɢ ᴏᴛʜᴇʀ ʙᴏᴛs ᴀᴠᴀɪʟᴀʙʟᴇ\n"
+        "ℹ️ Subscribe @DaisySupport_Official if you 😍 using this bot❗️❣️"
     )
 )
 INPUT_PHONE_NUMBER = get_config("INPUT_PHONE_NUMBER", (
@@ -134,13 +134,12 @@ ACC_PROK_WITH_TFA = get_config("ACC_PROK_WITH_TFA", (
     "<i>This message will only be used for generating your "
     "string session, and will never be used for any other purposes "
     "than for which it is asked.</i>\n\n"
-    "It is recommended to use "
-    "https://github.com/SpEcHIDe/SessionMakerBot and not "
-    "use this hosted version"
+    "It is recommended to use @DaisyXStringGenBoT"
+    " ᴘᴏᴡᴇʀᴇᴅ ʙʏ @TeamDaisyX"
 ))
 SESSION_GENERATED_USING = get_config("SESSION_GENERATED_USING", (
     "Thank you for using me 😬\n\n"
     "This is an Open Source Project available on "
-    "https://github.com/SpEcHIDe/SessionMakerBot\n\n\n"
+    "Team Daisy X Github You can find at @DaisySupport_Official\n\n\n"
     "👆👆👆 String Session successfully generated 👆👆👆"
 ))
