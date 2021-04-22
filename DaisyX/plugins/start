@@ -1,0 +1,59 @@
+# Daisyxmusic (Telegram bot project )
+# Copyright (C) 2021  Inukaasith 
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+
+
+from pyrogram import Client
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+
+from pyrogram.filters import command, other_filters, other_filters2
+
+
+@Client.on_message(command("start") & other_filters2)
+async def start(_, message: Message):
+    await message.reply_text(
+        f"""🙃 Hi {message.from_user.first_name}!
+✨ Hey I am DaisyX String Generator Bot. 
+🥳 I can Generator String Session for You 😉. 
+👻 You can also Use me For Playing Music At Voice Chat 👻. 
+⚜️ Use these buttons below to know more. 👇
+🔥 Source Code Made by Devil With Help Of Other Bots 🔥. 
+👉 Type /genstr for Generating String Session 👈""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "⚒ Source code", url="https://github.com/SkemTools"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "💬 Group", url="https://t.me/DaisySupport_Official"
+                    ),
+                    InlineKeyboardButton(
+                        "Channel 🔈", url="https://t.me/DaisyXUpdates"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "❌ Close ❌", callback_data="close"
+                    )
+                ]
+            ]
+        )
+    )
+
+
