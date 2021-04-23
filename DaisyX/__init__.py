@@ -19,7 +19,7 @@
 import logging
 from dotenv import load_dotenv
 from logging.handlers import RotatingFileHandler
-from bot.get_config import get_config
+from DaisyX.get_config import get_config
 
 # apparently, no error appears even if the path does not exists
 load_dotenv("config.env")
