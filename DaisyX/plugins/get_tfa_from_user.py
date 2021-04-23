@@ -25,7 +25,7 @@ from pyrogram.types import (
 from pyrogram.errors import (
     PasswordHashInvalid
 )
-from bot import (
+from DaisyX import (
     AKTIFPERINTAH,
     TFA_CODE_IN_VALID_ERR_TEXT,
     SESSION_GENERATED_USING
