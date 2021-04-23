@@ -22,7 +22,7 @@ from pyrogram import (
 from pyrogram.types import (
     Message
 )
-from bot import (
+from DaisyX import (
     AKTIFPERINTAH,
     COMMM_AND_PRE_FIX,
     START_COMMAND,
