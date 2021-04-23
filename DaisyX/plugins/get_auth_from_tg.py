@@ -26,7 +26,7 @@ from pyrogram.errors import (
     SessionPasswordNeeded,
     BadRequest
 )
-from bot import (
+from DaisyX import (
     ACC_PROK_WITH_TFA,
     AKTIFPERINTAH,
     PHONE_CODE_IN_VALID_ERR_TEXT,
