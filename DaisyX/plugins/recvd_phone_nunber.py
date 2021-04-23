@@ -22,14 +22,14 @@ from pyrogram import (
 from pyrogram.types import (
     Message
 )
-from bot import (
+from DaisyX import (
     AKTIFPERINTAH,
     ALREADY_REGISTERED_PHONE,
     AVAILABLE_CODE_RECVING_OPTIONS,
     CONFIRM_SENT_VIA,
     RECVD_PHONE_NUMBER_DBP
 )
-from bot.user import User
+from DaisyX.user import User
 
 
 @Client.on_message(
